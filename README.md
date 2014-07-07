@@ -5,32 +5,37 @@ an experimental sample with [TECS(TOPPERS Embedded Component System)](http://www
 
 how to run this sample (on Mac OS X + [HomeBrew](http://brew.sh/ "HomeBrew")):
 
-1. install tecsgen using homebrew
+1. install racc
+    ```
+    $ gem install racc
+    ```
+
+2. install tecsgen using homebrew
 
     ```
     $ brew tap NSaitoNmiri/tecsgen
     $ brew install tecsgen
     ```
 
-2. set environment variables
+3. set environment variables
 
     ```
     RUBYLIB=/usr/local/opt/tecsgen/tecsgen
     TECSPATH=/usr/local/opt/tecsgen/tecs
     ```
 
-3. clone this sample
+4. clone this sample
     ```
     $ git clone https://github.com/NSaitoNmiri/tecs-helloworld.git
     ```
 
-4. build
+5. build
     ```
     $ cd tecs-helloworld
     $ make
     ```
 
-5. run
+6. run
     ```
     $ ./app.exe
     ```
