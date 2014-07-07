@@ -1,0 +1,5 @@
+import (<sPrint.cdl>);
+
+celltype tOutput {
+	entry sPrint ePrint;
+};

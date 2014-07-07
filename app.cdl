@@ -1,0 +1,9 @@
+import(<tOutput.cdl>);
+import(<tTECSMainTask.cdl>);
+
+cell tOutput Output {
+};
+
+cell tTECSMainTask MainTask {
+	cPrint = Output.ePrint;
+};

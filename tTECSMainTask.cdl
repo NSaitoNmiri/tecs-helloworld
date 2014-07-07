@@ -1,0 +1,11 @@
+import(<posix.cdl>);
+
+[singleton, active]
+celltype tTECSMainTask {
+	entry nPosix::sMain eMain;
+	call sPrint cPrint;
+
+	attr {
+		char * message = "Hello World!\n";
+	};
+};

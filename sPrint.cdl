@@ -1,0 +1,3 @@
+signature sPrint {
+	void print([in, string] const char *str);
+};
