@@ -3,7 +3,7 @@ tecs-helloworld
 
 an experimental sample with [TECS(TOPPERS Embedded Component System)](http://www.toppers.jp/tecs.html "TECS") that prints a string "Hello World!" to standard output.
 
-how to run this sample (on Mac OS X + [HomeBrew](brew.sh/ "HomeBrew")):
+how to run this sample (on Mac OS X + [HomeBrew](http://brew.sh/ "HomeBrew")):
 
 1. install tecsgen using homebrew
 
